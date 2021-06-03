@@ -1,0 +1,145 @@
+body {
+    padding-top: 800px;
+    margin: 0;
+    text-align: center;
+}
+
+.profile {
+    width: 350px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: red;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    background-image: linear-gradient(#662D8C 0%, #ED1E79 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    text-shadow: 2px 2px #F8BBD0;
+    font-size: 35px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: Blue;
+    font-family: 'Sigmar One', cursive;
+}
+
+#hi{
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+#name {
+    font-size: 45px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: purple;
+}
+
+p {
+    font-size: 25px;
+    color: purple;
+    font-weight: bold;
+    line-height: 1.3;
+    font-family: 'Indie Flower', cursive;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+
+
+}
+
+#bio {
+    font-size: 42;
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(#A9F1DF 0%, #FFBBBB 100%);  
+}
+ 
+#player{
+   background: linear-gradient(#D8B5FF 0%, #1EAE98 100%); 
+}
+
+#inspiration{
+    background: linear-gradient(#C6EA8D 0%, #1EAE98 100%);  
+}
+
+.menu {
+    list-style: none;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    z-index: 10;
+    position: absolute;
+}
+
+.links {
+    float: left;
+    color: purple;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+    border: 2px solid #f01c41;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+    color: deeppink;
+    font-family: 'Londrina Solid', cursive;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.picture.hover {
+    color: purple;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 300px;
+}
+ 
+.picture{
+    color: #FFEB33;
+}
